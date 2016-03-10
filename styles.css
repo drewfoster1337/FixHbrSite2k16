@@ -1,0 +1,232 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+* {
+background-color: #1B1B1B;
+}
+body {
+	text-align: center;
+	background: url("https://i.imgur.com/WAJSHg2.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+#cssmenu {
+  text-align: center;
+}
+
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+  text-align: center;
+}
+
+#cssmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin-top: 20px;
+  margin-left: 100px;
+	
+}
+
+#cssmenu.align-right ul li {
+  float: right;
+}
+
+#cssmenu.align-center ul {
+  text-align: center;
+}
+
+#cssmenu ul li a {
+  color: #d3d3d3;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: Lato, 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+
+#cssmenu ul li a:hover {
+  color: #333333;
+}
+
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+
+/*#cssmenu ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: white;
+  opacity: .5;
+}*/
+
+#cssmenu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #34b233;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: none;
+}
+#cssmenu ul li.active a {
+  color: #34B233;
+}
+
+#cssmenu ul li.active a:before {
+	background-color: #34B233;
+  width: 100%;
+}
+
+
+#cssmenu.align-right li.last > a:after,
+#cssmenu.align-right li:last-child > a:after {
+  display: block;
+}
+
+#cssmenu.align-right li:first-child a:after {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #cssmenu ul li {
+    float: none;
+    display: block;
+  }
+  
+#cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    border-bottom:
+  }
+  
+#cssmenu ul li.last > a,
+  #cssmenu ul li:last-child > a {
+    border: 0;
+  }
+  
+#cssmenu ul li a:after {
+    display: none;
+  }
+  
+#cssmenu ul li a:before {
+    display: none;
+  }
+
+}
+#header {
+	color: white;
+	font-family: Lato, 'Open Sans', sans-serif;
+
+
+}
+#leaf {
+	float: center;
+	height: 30%;
+	width: 30%;
+} 
+#column-welcome {
+
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 200px;
+	width: 80%;
+	margin-top: 5%;
+	display: ;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-variant: normal;
+}
+#welcome {
+	color: #34B233;
+	font-size: 5em;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-variant: normal;
+	float:;
+}
+#welcomep {
+	color: #d3d3d3;
+	text-align: center;
+	float: ;
+	font-size: 1.25em;
+}
+
+
+#column-right {
+	font-family: 'Avant Garde', Avantgarde
+	background: white;
+	float: right;
+	margin-right: 10%;
+	height: 500px;
+	width: 38%;
+	margin-top: 2%;
+}
+
+#column-left {
+	font-family: 'Avant Garde', Avantgarde;
+	background: white;
+	float: left;
+	margin-left: 10%;
+	height: 500px;
+	width: 100%;
+	margin-top: 2%;
+
+}
+
+#about-ush {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	background: ;
+	font-weight: 400;
+	color: #34b233;
+	font-size: 3em;
+	
+}
+#about-us {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 400;
+	line-height: 200%;
+}
+
